@@ -10,26 +10,57 @@
     </head>
 <body>
     <!--navbar-->
-    <div id="menu" class="menu">
-        <div id="menu-bar" onclick="onClickMenu()">
-            <div id="bar1" class="bar"></div>
-            <div id="bar2" class="bar"></div>
-            <div id="bar3" class="bar"></div>
-    <ul id="nav" class="nav">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Catalogue</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="registration.html">Log In</a></li>
-    </ul>
+    <header class="header-page">
+        <div class="container header-page-container">
+          <div class="header-page-start">
+            <div class="logo">
+              <img class="logo-img" src="images/logo.png" alt="" width="50" height="50">
+            </div>
+          </div>
+          <div class="header-page-end">
+            <nav class="header-page-nav">
+              <ul class="header-page-ul">
+                <li class="header-page-li">
+                  <a class="header-page-link" href="index.html">
+                    <span class="header-page-text">about us</span>
+                  </a>
+                </li>
+                <li class="header-page-li">
+                  <a class="header-page-link" href="catalogue.html">
+                    <span class="header-page-text">catalogue</span>
+                  </a>
+                </li>
+                <li class="header-page-li">
+                  <a class="header-page-link" href="#">
+                    <span class="header-page-text">contacts</span>
+                  </a>
+                </li>
+                <li class="header-page-li">
+                    <a class="header-page-link" href="#">
+                      <span class="header-page-text">log in/registration</span>
+                    </a>
+                  </li>
+              </ul>
+            </nav>
+            <div class="phone">
+              <a class="phone-item header-page-phone" href="tel:+79999999999">+7 (999) 999-99-99</a>
+            </div>
+            <div class="header-page-hamburger">
+              <button class="btn-menu" type="button">
+                <span class="btn-menu-box">
+                  <span class="btn-menu-inner"></span>
+                </span>
+              </button>
+            </div>
+          </div>
         </div>
-    </div>
+      </header>
     <!--end of navbar-->
     <!--header-->
 <header class="header">
     <div class="hero">
         <h1 class="title"> Food deliveryh</h1>
-        <a href="#" class="hero-button pulsate"> Go shopping</a>
+        <a href="catalogue.html" class="hero-button pulsate"> Go shopping</a>
     </div>
 </header>
     <!--end of the header-->
@@ -113,7 +144,7 @@
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing 
                  elit. Aut omnis nam iusto praesentium inventore vitae 
                  esse tempora repellendus.</p>
-                 <a href="#">Explore</a>
+                 <a href="catalogue.html">Explore</a>
             </div>
         </article>
     </section>
