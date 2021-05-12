@@ -1,0 +1,85 @@
+/*== button close==*/
+.btn-close{
+    position: relative;
+    border: none;
+    cursor: pointer;
+    background: none;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    transition: transform .2s, opacity .2s;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.btn-close:hover{
+    transform: scale(1.1);
+}
+.btn-close:active{
+    transform: scale(.9);
+    opacity: .8;
+}
+.btn-close::before, .btn-close::after{
+    content: "";
+    background: #d2d2d2;
+    height: 40px;
+    width: 3px;
+    position: absolute;
+    border-radius: 10px;
+    top: 50%;
+}
+.btn-close::before{
+    transform: translateY(-50%) rotate(45deg);
+}
+.btn-close::after{
+    transform: translateY(-50%) rotate(-45deg);
+}
+/*== end of button close==*/
+/*== mobile-menu==*/
+.mobile-menu{
+    width: 100%;
+}
+.mobile-menu-ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.mobile-menu-link{
+    text-decoration: none;
+    padding: 20px 0;
+    display: block;
+    font-size: 24px;
+    color: inherit;
+    font-weight: bold;
+    text-align: center;
+    transition: background 0.2s, color 0.2s, opacity 0.2s;
+}
+.mobile-menu-link:hover{
+    background: #6e2923;
+    color: white;
+}
+.mobile-menu-link:hover{
+    opacity: 0.8;
+}
+.phone-item-accent{
+    border-color: #6e2923;
+    color: #6e2923;
+}
+.phone-item-accent:hover{
+    background: #6e2923;
+    color: white;
+}
+@media (max-width:767px){
+    .mobile-menu-link{
+        font-size: 20px;
+    }
+}
+/*== end of mobile-menu==*/
+/*== order==*
+.order{
+    max-width: 310px;
+    margin: 0 auto;
+}/
+
+/*== end of order==*/
