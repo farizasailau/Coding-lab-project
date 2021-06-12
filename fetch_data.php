@@ -60,7 +60,6 @@ if(isset($_POST["action"]))
             //         </footer>
             //     </div>
             // </div>';
-            
         }
     }else{
         $output = '<h3>No Data Found</h3>';
