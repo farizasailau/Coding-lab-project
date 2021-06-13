@@ -21,11 +21,6 @@ if(isset($_POST["action"]))
                      <p align="center"><strong><a href="#">'. $row->description .'</a></strong></p>
                  </div>
                  <footer class="product-footer">
-                             <div class="product-sizes">
-                                 <button class="product-size is-active">Half a cake </button>
-                                 <button class="product-size">Standard cake </button>
-                                 <button class="product-size">Large cake </button>
-                             </div>
                              <div class="product-bottom">
                                  <div class="product-price">
                                      <span class="product-currency">'. $row->price .'</span>
