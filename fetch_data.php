@@ -26,7 +26,7 @@ if(isset($_POST["action"]))
                                      <span class="product-currency">'. $row->price .'</span>
                                      <span class="product-currency">&#8376</span>
                                  </div>
-                                 <a href="#" class="hero-button product-btn">Add to cart</a>
+                                 <a href="cart.html" class="hero-button product-btn">Add to cart</a>
                              </div>
                      </footer>
              </div>';
