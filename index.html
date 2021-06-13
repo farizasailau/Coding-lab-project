@@ -255,7 +255,42 @@
         </div>
     </div>
     <!--end of popup menu-->
-    <script src="js/popup.js"></script>  
+    <!--popup order-->
+     <div class="popup popup-order">
+         <div class="popup-wrapper">
+             <div class="popup-inner">
+                 <div class="popup-content">
+                     <button class="btn-close popup-btn-close"></button>
+                     <h2 class="title-text">Fill the form</h2>
+                     <p class="popup-subtitle">We will deliver your order in 20 minutes</p>
+                     <div class="or">
+                         <img class="order-img" src="images/brownie.jpg" alt="">
+                         <h3 class="order-title">
+                             <span>Red Velvet</span>
+                             <span>4500</span>
+                             <span> &#8376</span>
+                         </h3>
+                         <p class="order-size">Standard</p>
+                         <form class="form">
+                             <input type="hidden" name="cake">
+                             <input type="hidden" name="price">
+                             <input type="hidden" name="size">
+                             <input class="form-input" type="text" name="name" placeholder="Name" required>
+                             <input class="form-input" type="text" name="phone" placeholder="Phone" required>
+                             <input class="form-input" type="text" name="address" placeholder="Address" required>
+                             <select class="form-input"name="payment" >
+                                 <option value="Cash"></option>
+                                 <option value="Visa/Mastercard"></option>
+                             </select>
+                             <button class="hero-button from-btn" type="submit">Submit</button>
+                         </form>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+     <!--end of popup order-->
+     <script src="js/popup.js"></script> 
     <script src="js/onClickMenu.js"></script>
 
 </body></html>
