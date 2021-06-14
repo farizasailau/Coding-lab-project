@@ -2,13 +2,86 @@
 <html lang="en" >
    <head>
       <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>shopping cart</title>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
       <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
       <link rel="stylesheet" href="./cart.css">
+      <link rel="stylesheet" href="main.css">
+     <link rel="stylesheet" href="popup.css">
+
+     <link rel="stylesheet" href="components.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@400;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://kit.fontawesome.com/138525b985.js" crossorigin="anonymous"></script>
    </head>
    <body>
+        <!--navbar-->
+    <header class="header-page">
+        <div class="container header-page-container">
+          <div class="header-page-start">
+            <div class="logo">
+              <img class="logo-img" src="images/logo.png" alt="" width="50" height="50">
+            </div>
+          </div>
+          <div class="header-page-end">
+            <nav class="header-page-nav">
+              <ul class="header-page-ul">
+                <li class="header-page-li">
+                  <a class="header-page-link" href="index.html">
+                    <span class="header-page-text">about us</span>
+                  </a>
+                </li>
+                <li class="header-page-li">
+                  <a class="header-page-link" href="catalogue.html">
+                    <span class="header-page-text">catalogue</span>
+                  </a>
+                </li>
+                <li class="header-page-li">
+                  <a class="header-page-link" href="contacts.html">
+                    <span class="header-page-text">contacts</span>
+                  </a>
+                </li>
+                <li class="header-page-li">
+                    <a class="header-page-link" href="registration.html">
+                      <span class="header-page-text">log in/registration</span>
+                    </a>
+                </li>
+                <li class="header-page-li">
+                    <a class="header-page-link" href="#">
+                  <i class="fas fa-search"></i>
+                </a>
+            </li>
+            <li class="header-page-li">
+                <a class="header-page-link" href="./cart.html">
+                    <i class="fas fa-shopping-cart"></i>
+            </a>
+        </li>
+                <li class="header-page-li">
+                    <a class="header-page-link" href="user-profile.html">
+                      <span class="header-page-text">User-profile</span>
+                    </a>
+                </li>
+
+              </ul>
+            </nav>
+            <div class="header-page-hamburger">
+              <button class="btn-menu" type="button" data-popup="popup-menu">
+                <span class="btn-menu-box">
+                  <span class="btn-menu-inner"></span>
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </header>
+    <!--end of navbar-->
+    <br>
 <div class="container-fluid mt-5">
     <h2 class="mb-5 text-center">Shopping Cart</h2>
     <div class="row justify-content-center">
@@ -51,7 +124,7 @@
                       <td align="right"> T <span id="amount" class="amount">0</span>
                       </td>
                    </tr>
-                   
+
                    <tr>
                     <td>
                        <div class="product-img">
@@ -76,7 +149,6 @@
                        <td align="right">T <span id="amount" class="amount">0</span>
                     </td>
                  </tr>
-                   
                    <!---- add more tr  ---------->
                    <tr>
                     <td>
@@ -131,32 +203,7 @@
                     <td>
                        <div class="product-img">
                           <div class="img-prdct">
-                             <img src="./images/napoleon.jpg">
-                          </div>
-                       </div>
-                    </td>
-                    <td>
-                       <p>Napoleon</p>
-                    </td>
-                    <td>
-                       <div class="button-container">
-                          <button class="cart-qty-plus" type="button" value="+">+</button>
-                          <input type="text" name="qty" min="0" class="qty form-control" value="0"/>
-                          <button class="cart-qty-minus" type="button" value="-">-</button>
-                       </div>
-                    </td>
-                    <td>
-                       <input type="text" value="4500" class="price form-control" disabled>
-                    </td>
-                    <td align="right">T <span id="amount" class="amount">0</span>
-                    </td>
-                 </tr>
-                   
-                   <tr>
-                    <td>
-                       <div class="product-img">
-                          <div class="img-prdct">
-                             <img src="./images/cheesecake.jpg">
+                            <img src="./images/cheesecake.jpg">
                           </div>
                        </div>
                     </td>
@@ -198,5 +245,3 @@
  <script  src="./script.js"></script>
  </body>
  </html>
-
- 
