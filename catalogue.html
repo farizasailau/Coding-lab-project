@@ -4,9 +4,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catalogue</title>
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="popup.css">
+     <link rel="stylesheet" href="popup.css">
 
-    <link rel="stylesheet" href="components.css">
+     <link rel="stylesheet" href="components.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@400;700&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -16,380 +16,383 @@
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
     <script src="https://kit.fontawesome.com/138525b985.js" crossorigin="anonymous"></script>
-</head>
+    </head>
 <body>
-<!--navbar-->
-<header class="header-page">
-    <div class="container header-page-container">
-        <div class="header-page-start">
+    <!--navbar-->
+    <header class="header-page">
+        <div class="container header-page-container">
+          <div class="header-page-start">
             <div class="logo">
-                <img class="logo-img" src="images/logo.png" alt="" width="50" height="50">
+              <img class="logo-img" src="images/logo.png" alt="" width="50" height="50">
             </div>
-        </div>
-        <div class="header-page-end">
+          </div>
+          <div class="header-page-end">
             <nav class="header-page-nav">
-                <ul class="header-page-ul">
-                    <li class="header-page-li">
-                        <a class="header-page-link" href="index.html">
-                            <span class="header-page-text">about us</span>
-                        </a>
-                    </li>
-                    <li class="header-page-li">
-                        <a class="header-page-link" href="catalogue.html">
-                            <span class="header-page-text">catalogue</span>
-                        </a>
-                    </li>
-                    <li class="header-page-li">
-                        <a class="header-page-link" href="contacts.html">
-                            <span class="header-page-text">contacts</span>
-                        </a>
-                    </li>
-                    <li class="header-page-li">
-                        <a class="header-page-link" href="registration/registration.html">
-                            <span class="header-page-text">log in/registration</span>
-                        </a>
-                    </li>
-                    <li class="header-page-li">
-                        <a class="header-page-link" href="./cart.html">
-                            <i class="fas fa-shopping-cart"></i>
-                        </a>
-                    </li>
-                    <li class="header-page-li">
-                        <a class="header-page-link" href="user-profile.html">
-                            <span class="header-page-text">User-profile</span>
-                        </a>
-                    </li>
+              <ul class="header-page-ul">
+                <li class="header-page-li">
+                  <a class="header-page-link" href="index.html">
+                    <span class="header-page-text">about us</span>
+                  </a>
+                </li>
+                <li class="header-page-li">
+                  <a class="header-page-link" href="catalogue.html">
+                    <span class="header-page-text">catalogue</span>
+                  </a>
+                </li>
+                <li class="header-page-li">
+                  <a class="header-page-link" href="contacts.html">
+                    <span class="header-page-text">contacts</span>
+                  </a>
+                </li>
+                <li class="header-page-li">
+                    <a class="header-page-link" href="registration.html">
+                      <span class="header-page-text">log in/registration</span>
+                    </a>
+                </li>
+                <li class="header-page-li">
+                    <a class="header-page-link" href="#">
+                  <i class="fas fa-search"></i>
+                </a>
+            </li>
+            <li class="header-page-li">
+                <a class="header-page-link" href="cart.html">
+                    <i class="fas fa-shopping-cart"></i>
+            </a>
+        </li>
+                <li class="header-page-li">
+                    <a class="header-page-link" href="user-profile.html">
+                      <span class="header-page-text">User-profile</span>
+                    </a>
+                </li>
 
-                </ul>
+              </ul>
             </nav>
             <div class="header-page-hamburger">
-                <button class="btn-menu" type="button" data-popup="popup-menu">
+              <button class="btn-menu" type="button" data-popup="popup-menu">
                 <span class="btn-menu-box">
                   <span class="btn-menu-inner"></span>
                 </span>
-                </button>
+              </button>
             </div>
+          </div>
         </div>
-    </div>
-</header>
-<!--end of navbar-->
-<!--filter-->
-<section class=" section section-catalogue">
-    <div class="container">
-        <header class="section-header">
-            <h2 class="title-text"> Catalogue</h2>
-            <nav class="catalogue-nav">
-                <ul class="catalogue-nav-wrapper">
-                    <li class="catalogue-nav-item">
-                        <button class="catalogue-nav-btn is-active" type="button" data-filter="all">All</button>
-                    </li>
-                    <li class="catalogue-nav-item">
-                        <button class="catalogue-nav-btn" type="button" data-filter="vegan">Vegan</button>
-                    </li>
-                    <li class="catalogue-nav-item">
-                        <button class="catalogue-nav-btn" type="button" data-filter="low-calorie">Low-Calorie</button>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <!--end of filter-->
+      </header>
+    <!--end of navbar-->
+    <!--filter-->
+    <section class=" section section-catalogue">
+        <div class="container">
+            <header class="section-header">
+                <h2 class="title-text"> Catalogue</h2>
+                <nav class="catalogue-nav">
+                    <ul class="catalogue-nav-wrapper">
+                        <li class="catalogue-nav-item">
+                            <button class="catalogue-nav-btn is-active" type="button" data-filter="all">All</button>
+                        </li>
+                        <li class="catalogue-nav-item">
+                            <button class="catalogue-nav-btn" type="button" data-filter="vegan">Vegan</button>
+                        </li>
+                        <li class="catalogue-nav-item">
+                            <button class="catalogue-nav-btn" type="button" data-filter="low-calorie">Low-Calorie</button>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <!--end of filter-->
 
-        <!--Filtering by price-->
+            <!--Filtering by price-->
 
-        <div class="container2">
-            <div class="row2">
-                <br />
-                <h2><center>You can choose any range of price depending on our preference</center></h2>
-                <br />
-                <div class="col-md-3">
-                    <div class="list-group">
-                        <h3>Price</h3>
-                        <input type="hidden" id="hidden_minimum_price" value="0" />
-                        <input type="hidden" id="hidden_maximum_price" value="20000" />
-                        <p id="price_show">1000 KZT - 20000 KZT</p>
-                        <div id="price_range"></div>
-                    </div>
-                </div>
-                <div class="col-md-9">
+            <div class="container2">
+                <div class="row2">
                     <br />
-                    <div class="row filter_data">
-
+                    <h2><center>You can choose any range of price depending on our preference</center></h2>
+                    <br />
+                    <div class="col-md-3">
+                        <div class="list-group">
+                            <h3>Price</h3>
+                            <input type="hidden" id="hidden_minimum_price" value="0" />
+                            <input type="hidden" id="hidden_maximum_price" value="20000" />
+                            <p id="price_show">1000 KZT - 20000 KZT</p>
+                            <div id="price_range"></div>
+                        </div>
                     </div>
-
+                    <div class="col-md-9">
+                        <br />
+                        <div class="row filter_data">
+                            
+                        </div>
+                        
+                    </div>
                 </div>
             </div>
-        </div>
-        <style>
-            #loading{text-align: center; background: url('images/loading.gif') no-repeat center; height: 150px;}
-        </style>
-        <script>
-            $(document).ready(function() {
-                filter_data();
-                function filter_data(){
-                    $('.filter_data').html('<div id="loading" style=" "></div>');
-                    var action='fetch_data';
-                    var minimum_price=$('#hidden_minimum_price').val();
-                    var maximum_price=$('#hidden_maximum_price').val();
+            <style>
+                #loading{text-align: center; background: url('images/loading.gif') no-repeat center; height: 150px;}
+            </style>
+            <script>
+                $(document).ready(function() {
+                    filter_data();
+                    function filter_data(){
+                        $('.filter_data').html('<div id="loading" style=" "></div>');
+                        var action='fetch_data';
+                        var minimum_price=$('#hidden_minimum_price').val();
+                        var maximum_price=$('#hidden_maximum_price').val();
 
-                    $.ajax({
-                        url: "fetch_data.php",
-                        method: "POST",
-                        data: {action: action, minimum_price: minimum_price, maximum_price: maximum_price},
-                        success: function(data){
-                            $('.filter_data').html(data);
-                        }
-                    });
-                }
-                $('#price_range').slider({
-                    range: true,
-                    min: 1000,
-                    max: 20000,
-                    values: [1000, 20000],
-                    step: 500,
-                    stop: function(event, ui){
-                        $('#price_show').html(ui.values[0]+ '-' +ui.values[1]);
-                        $('#hidden_minimum_price').val(ui.values[0]);
-                        $('#hidden_maximum_price').val(ui.values[1]);
-                        filter_data();
+                        $.ajax({
+                            url: "fetch_data.php",
+                            method: "POST",
+                            data: {action: action, minimum_price: minimum_price, maximum_price: maximum_price},
+                            success: function(data){
+                                $('.filter_data').html(data);
+                            }
+                        });
                     }
+                    $('#price_range').slider({
+                        range: true,
+                        min: 1000,
+                        max: 20000,
+                        values: [1000, 20000],
+                        step: 500,
+                        stop: function(event, ui){
+                            $('#price_show').html(ui.values[0]+ '-' +ui.values[1]);
+                            $('#hidden_minimum_price').val(ui.values[0]);
+                            $('#hidden_maximum_price').val(ui.values[1]);
+                            filter_data();
+                        }
 
+                    });
                 });
-            });
-        </script>
+            </script>
 
 
-        <!--end of filtering by price-->
+            <!--end of filtering by price-->
 
 
 
-        <!--catalogue-->
-        <!-- <div class="catalogue">
-            <div class="catalogue-item" data-category="All">
-                <div class="product catalogue-product">
-                    <img src="images/redvelvet.jpg" alt="" class="product-img">
-                    <div class="product-content">
-                        <h3 class="product-title">Red Velvet</h3>
-                        <p class="product-description">Wet red velvet biscuit with cheese and curd cream</p>
-                    </div>
-                    <footer class="product-footer">
-                        <div class="product-sizes">
-                            <button class="product-size is-active">Half a cake </button>
-                            <button class="product-size">Standard cake </button>
-                            <button class="product-size">Large cake </button>
+            <!--catalogue-->
+            <!-- <div class="catalogue">
+                <div class="catalogue-item" data-category="All">
+                    <div class="product catalogue-product">
+                        <img src="images/redvelvet.jpg" alt="" class="product-img">
+                        <div class="product-content">
+                            <h3 class="product-title">Red Velvet</h3>
+                            <p class="product-description">Wet red velvet biscuit with cheese and curd cream</p>
                         </div>
-                        <div class="product-bottom">
-                            <div class="product-price">
-                                <span class="product-price-value">4500</span>
-                                <span class="product-currency">&#8376</span>
+                        <footer class="product-footer">
+                            <div class="product-sizes">
+                                <button class="product-size is-active">Half a cake </button>
+                                <button class="product-size">Standard cake </button>
+                                <button class="product-size">Large cake </button>
                             </div>
-                            <a href="#" class="hero-button product-btn"> Buy</a>
-                        </div>
-                    </footer>
-                </div>
-            </div>
-            <div class="catalogue-item" data-category="All">
-                <div class="product catalogue-product">
-                    <img src="images/milch.jpg" alt="" class="product-img">
-                    <div class="product-content">
-                        <h3 class="product-title">Milch Madchen</h3>
-                        <p class="product-description">Airy, porous cakes with light,
-                    delicate butter cream.</p>
-                    </div>
-                    <footer class="product-footer">
-                        <div class="product-sizes">
-                            <button class="product-size is-active">Half a cake </button>
-                            <button class="product-size">Standard cake </button>
-                            <button class="product-size">Large cake </button>
-                        </div>
-                        <div class="product-bottom">
-                            <div class="product-price">
-                                <span class="product-price-value">4500</span>
-                                <span class="product-currency">&#8376</span>
+                            <div class="product-bottom">
+                                <div class="product-price">
+                                    <span class="product-price-value">4500</span>
+                                    <span class="product-currency">&#8376</span>
+                                </div>
+                                <a href="#" class="hero-button product-btn"> Buy</a>
                             </div>
-                            <a href="#" class="hero-button product-btn"> Buy</a>
-                        </div>
-                    </footer>
-                </div>
-            </div>
-            <div class="catalogue-item" data-category="All">
-                <div class="product catalogue-product">
-                    <img src="images/brownie.jpg" alt="" class="product-img">
-                    <div class="product-content">
-                        <h3 class="product-title">Brownie</h3>
-                        <p class="product-description">Chocolate pie with the addition of chopped hazelnuts and covered with aromatic chocolate glaze</p>
+                        </footer>
                     </div>
-                    <footer class="product-footer">
-                        <div class="product-sizes">
-                            <button class="product-size is-active">Half a cake </button>
-                            <button class="product-size">Standard cake </button>
-                            <button class="product-size">Large cake </button>
-                        </div>
-                        <div class="product-bottom">
-                            <div class="product-price">
-                                <span class="product-price-value">5000</span>
-                                <span class="product-currency">&#8376</span>
-                            </div>
-                            <a href="#" class="hero-button product-btn"> Buy</a>
-                        </div>
-                    </footer>
                 </div>
-            </div>
-            <div class="catalogue-item" data-category="vegan">
-                <div class="product catalogue-product">
-                    <img src="images/carrot.jpg" alt="" class="product-img">
-                    <div class="product-content">
-                        <h3 class="product-title">Vegan Carrot Cake</h3>
-                        <p class="product-description">Sponge cake with the addition of carrots, orange peel, walnuts and cinnamon, soaked in curd cheese cream</p>
+                <div class="catalogue-item" data-category="All">
+                    <div class="product catalogue-product">
+                        <img src="images/milch.jpg" alt="" class="product-img">
+                        <div class="product-content">
+                            <h3 class="product-title">Milch Madchen</h3>
+                            <p class="product-description">Airy, porous cakes with light, 
+                        delicate butter cream.</p>
+                        </div>
+                        <footer class="product-footer">
+                            <div class="product-sizes">
+                                <button class="product-size is-active">Half a cake </button>
+                                <button class="product-size">Standard cake </button>
+                                <button class="product-size">Large cake </button>
+                            </div>
+                            <div class="product-bottom">
+                                <div class="product-price">
+                                    <span class="product-price-value">4500</span>
+                                    <span class="product-currency">&#8376</span>
+                                </div>
+                                <a href="#" class="hero-button product-btn"> Buy</a>
+                            </div>
+                        </footer>
                     </div>
-                    <footer class="product-footer">
-                        <div class="product-sizes">
-                            <button class="product-size is-active">Half a cake </button>
-                            <button class="product-size">Standard cake </button>
-                            <button class="product-size">Large cake </button>
-                        </div>
-                        <div class="product-bottom">
-                            <div class="product-price">
-                                <span class="product-price-value">7000</span>
-                                <span class="product-currency">&#8376</span>
-                            </div>
-                            <a href="#" class="hero-button product-btn"> Buy</a>
-                        </div>
-                    </footer>
                 </div>
-            </div>
-            <div class="catalogue-item" data-category="All">
-                <div class="product catalogue-product">
-                    <img src="images/napoleon.jpg" alt="" class="product-img">
-                    <div class="product-content">
-                        <h3 class="product-title">Napoleon</h3>
-                        <p class="product-description">Homemade puff cakes soaked in aromatic custard</p>
+                <div class="catalogue-item" data-category="All">
+                    <div class="product catalogue-product">
+                        <img src="images/brownie.jpg" alt="" class="product-img">
+                        <div class="product-content">
+                            <h3 class="product-title">Brownie</h3>
+                            <p class="product-description">Chocolate pie with the addition of chopped hazelnuts and covered with aromatic chocolate glaze</p>
+                        </div>
+                        <footer class="product-footer">
+                            <div class="product-sizes">
+                                <button class="product-size is-active">Half a cake </button>
+                                <button class="product-size">Standard cake </button>
+                                <button class="product-size">Large cake </button>
+                            </div>
+                            <div class="product-bottom">
+                                <div class="product-price">
+                                    <span class="product-price-value">5000</span>
+                                    <span class="product-currency">&#8376</span>
+                                </div>
+                                <a href="#" class="hero-button product-btn"> Buy</a>
+                            </div>
+                        </footer>
                     </div>
-                    <footer class="product-footer">
-                        <div class="product-sizes">
-                            <button class="product-size is-active">Half a cake </button>
-                            <button class="product-size">Standard cake </button>
-                            <button class="product-size">Large cake </button>
-                        </div>
-                        <div class="product-bottom">
-                            <div class="product-price">
-                                <span class="product-price-value">4500</span>
-                                <span class="product-currency">&#8376</span>
-                            </div>
-                            <a href="#" class="hero-button product-btn"> Buy</a>
-                        </div>
-                    </footer>
                 </div>
-            </div>
-            <div class="catalogue-item" data-category="low-calorie">
-                <div class="product catalogue-product">
-                    <img src="images/cheesecake.jpg" alt="" class="product-img">
-                    <div class="product-content">
-                        <h3 class="product-title">Low-Calorie Cherry Cheese Cake</h3>
-                        <p class="product-description">Baked almond milk cheesecake on a shortbread basis with cherry filling</p>
+                <div class="catalogue-item" data-category="vegan">
+                    <div class="product catalogue-product">
+                        <img src="images/carrot.jpg" alt="" class="product-img">
+                        <div class="product-content">
+                            <h3 class="product-title">Vegan Carrot Cake</h3>
+                            <p class="product-description">Sponge cake with the addition of carrots, orange peel, walnuts and cinnamon, soaked in curd cheese cream</p>
+                        </div>
+                        <footer class="product-footer">
+                            <div class="product-sizes">
+                                <button class="product-size is-active">Half a cake </button>
+                                <button class="product-size">Standard cake </button>
+                                <button class="product-size">Large cake </button>
+                            </div>
+                            <div class="product-bottom">
+                                <div class="product-price">
+                                    <span class="product-price-value">7000</span>
+                                    <span class="product-currency">&#8376</span>
+                                </div>
+                                <a href="#" class="hero-button product-btn"> Buy</a>
+                            </div>
+                        </footer>
                     </div>
-                    <footer class="product-footer">
-                        <div class="product-sizes">
-                            <button class="product-size is-active">Half a cake </button>
-                            <button class="product-size">Standard cake </button>
-                            <button class="product-size">Large cake </button>
-                        </div>
-                        <div class="product-bottom">
-                            <div class="product-price">
-                                <span class="product-price-value">7500</span>
-                                <span class="product-currency">&#8376</span>
-                            </div>
-                            <a href="#" class="hero-button product-btn"> Buy</a>
-                        </div>
-                    </footer>
                 </div>
-            </div>
-    </div> -->
+                <div class="catalogue-item" data-category="All">
+                    <div class="product catalogue-product">
+                        <img src="images/napoleon.jpg" alt="" class="product-img">
+                        <div class="product-content">
+                            <h3 class="product-title">Napoleon</h3>
+                            <p class="product-description">Homemade puff cakes soaked in aromatic custard</p>
+                        </div>
+                        <footer class="product-footer">
+                            <div class="product-sizes">
+                                <button class="product-size is-active">Half a cake </button>
+                                <button class="product-size">Standard cake </button>
+                                <button class="product-size">Large cake </button>
+                            </div>
+                            <div class="product-bottom">
+                                <div class="product-price">
+                                    <span class="product-price-value">4500</span>
+                                    <span class="product-currency">&#8376</span>
+                                </div>
+                                <a href="#" class="hero-button product-btn"> Buy</a>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+                <div class="catalogue-item" data-category="low-calorie">
+                    <div class="product catalogue-product">
+                        <img src="images/cheesecake.jpg" alt="" class="product-img">
+                        <div class="product-content">
+                            <h3 class="product-title">Low-Calorie Cherry Cheese Cake</h3>
+                            <p class="product-description">Baked almond milk cheesecake on a shortbread basis with cherry filling</p>
+                        </div>
+                        <footer class="product-footer">
+                            <div class="product-sizes">
+                                <button class="product-size is-active">Half a cake </button>
+                                <button class="product-size">Standard cake </button>
+                                <button class="product-size">Large cake </button>
+                            </div>
+                            <div class="product-bottom">
+                                <div class="product-price">
+                                    <span class="product-price-value">7500</span>
+                                    <span class="product-currency">&#8376</span>
+                                </div>
+                                <a href="#" class="hero-button product-btn"> Buy</a>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+        </div> -->
     </div>
 </section>
-<!--footer-->
-<footer class="footer">
+ <!--footer-->
+ <footer class="footer">
     <div class="section-center">
         <p class="text">
             &copy; <span> Food delivery</span></p>
     </div>
 </footer>
 <!--end of footer-->
-<!--end of catalogue-->
-<!--popup menu-->
-<div class="popup popup-menu">
-    <div class="popup-wrapper">
-        <div class="popup-inner">
-            <div class="popup-content popup-content-fluid popup-content-centered">
-                <button class="btn-close popup-btn-close"></button>
-                <nav class="mobile-menu popup-mobile-menu">
-                    <ul class="mobile-menu-ul">
-                        <li class="mobile-menu-li">
+    <!--end of catalogue-->
+    <!--popup menu-->
+    <div class="popup popup-menu">
+        <div class="popup-wrapper">
+            <div class="popup-inner">
+                <div class="popup-content popup-content-fluid popup-content-centered">
+                    <button class="btn-close popup-btn-close"></button>
+                    <nav class="mobile-menu popup-mobile-menu">
+                        <ul class="mobile-menu-ul">
+                          <li class="mobile-menu-li">
                             <a class="mobile-menu-link" href="index.html">About us</a>
-                        </li>
-                        <li class="mobile-menu-li">
+                          </li>
+                          <li class="mobile-menu-li">
                             <a class="mobile-menu-link" href="catalogue.html">Catalogue</a>
-                        </li>
-                        <li class="mobile-menu-li">
-                            <a class="mobile-menu-link" href="#">Contacts</a>
-                        </li>
-                        <li class="mobile-menu-li">
-                            <a class="mobile-menu-link" href="#">Personal Cabinet</a>
-                        </li>
-                    </ul>
-                </nav>
-                <div class="phone popup-phone">
-                    <a class="phone-item phone-item-accent" href="tel:+79999999999">+7 (999) 999-99-99</a>
-                </div>
-                <section id="social-icons">
-                    <a href="#"><i class="fab fa-facebook facebook" ></i></a>
-                    <a href="#"><i class="fab fa-twitter twitter" ></i></a>
-                    <a href="#"><i class="fab fa-instagram instagram" ></i></a>
-                    <a href="#"><i class="fab fa-google-plus plus"></i></a>
-                </section>
-            </div>
-        </div>
-    </div>
-</div>
-<!--end of popup menu-->
-<!--popup order-->
-<div class="popup popup-order">
-    <div class="popup-wrapper">
-        <div class="popup-inner">
-            <div class="popup-content">
-                <button class="btn-close popup-btn-close"></button>
-                <h2 class="title-text">Fill the form</h2>
-                <p class="popup-subtitle">We will deliver your order in 20 minutes</p>
-                <div class="or">
-                    <img class="order-img" src="images/brownie.jpg" alt="">
-                    <h3 class="order-title">
-                        <span>Red Velvet</span>
-                        <span>4500</span>
-                        <span> &#8376</span>
-                    </h3>
-                    <p class="order-size">Standard</p>
-                    <form class="form">
-                        <input type="hidden" name="cake">
-                        <input type="hidden" name="price">
-                        <input type="hidden" name="size">
-                        <input class="form-input" type="text" name="name" placeholder="Name" required>
-                        <input class="form-input" type="text" name="phone" placeholder="Phone" required>
-                        <input class="form-input" type="text" name="address" placeholder="Address" required>
-                        <select class="form-input"name="payment" >
-                            <option value="Cash"></option>
-                            <option value="Visa/Mastercard"></option>
-                        </select>
-                        <button class="hero-button from-btn" type="submit">Submit</button>
-                    </form>
+                          </li>
+                          <li class="mobile-menu-li">
+                            <a class="mobile-menu-link" href="contacts.html">Contacts</a>
+                          </li>
+                          <li class="mobile-menu-li">
+                              <a class="mobile-menu-link" href="user-profile.html">Personal Cabinet</a>
+                            </li>
+                        </ul>
+                      </nav>
+                      <div class="phone popup-phone">
+                        <a class="phone-item phone-item-accent" href="tel:+79999999999">+7 (999) 999-99-99</a>
+                      </div>
+                      <section id="social-icons">
+                        <a href="#"><i class="fab fa-facebook facebook" ></i></a>
+                        <a href="#"><i class="fab fa-twitter twitter" ></i></a>
+                        <a href="#"><i class="fab fa-instagram instagram" ></i></a>
+                        <a href="#"><i class="fab fa-google-plus plus"></i></a>
+                    </section>
                 </div>
             </div>
         </div>
     </div>
-</div>
-
-<!--end of popup order-->
-
-<script src="js/popup.js"></script>
-<script src="js/onClickMenu.js"></script>
-<script src="js/catalogue.js"></script>
+    <!--end of popup menu-->
+   <!--popup order-->
+     <div class="popup popup-order">
+         <div class="popup-wrapper">
+             <div class="popup-inner">
+                 <div class="popup-content">
+                     <button class="btn-close popup-btn-close"></button>
+                     <h2 class="title-text">Fill the form</h2>
+                     <p class="popup-subtitle">We will deliver your order in 20 minutes</p>
+                     <div class="or">
+                         <img class="order-img" src="images/brownie.jpg" alt="">
+                         <h3 class="order-title">
+                             <span>Red Velvet</span>
+                             <span>4500</span>
+                             <span> &#8376</span>
+                         </h3>
+                         <p class="order-size">Standard</p>
+                         <form class="form">
+                             <input type="hidden" name="cake">
+                             <input type="hidden" name="price">
+                             <input type="hidden" name="size">
+                             <input class="form-input" type="text" name="name" placeholder="Name" required>
+                             <input class="form-input" type="text" name="phone" placeholder="Phone" required>
+                             <input class="form-input" type="text" name="address" placeholder="Address" required>
+                             <select class="form-input"name="payment" >
+                                 <option value="Cash"></option>
+                                 <option value="Visa/Mastercard"></option>
+                             </select>
+                             <button class="hero-button from-btn" type="submit">Submit</button>
+                         </form>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+     <!--end of popup order-->
+     <script src="js/popup.js"></script> 
+     <script src="js/onClickMenu.js"></script> 
+     <script src="js/catalogue.js"></script>
 
 </body></html>
